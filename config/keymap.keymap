@@ -10,13 +10,13 @@
 
         bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <0 1 2>;
+            key-positions = <0 1 2 3>;
             layers = <2>;
         };
 
         layer_3 {
             bindings = <&mo 3>;
-            key-positions = <9 10 11>;
+            key-positions = <9 10 11 8>;
         };
     };
 
@@ -25,10 +25,10 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp Q             &kp W         &kp E             &kp R               &kp T                &kp Y        &kp U      &kp I              &kp O           &kp P           &kp BSPC
-&kp TAB    &kp A             &kp S         &kp D             &kp F               &kp G                &kp H        &kp J      &kp K              &kp L           &kp SEMICOLON   &kp ENTER
-&kp LSHFT  &kp Z             &kp X         &kp C             &kp V               &kp B                &lt 4 MINUS  &kp EQUAL  &kp N              &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp SLASH
-&kp GLOBE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LEFT_BRACKET  &lt 5 RIGHT_BRACKET  &kp SPACE    &kp SPACE  &kp RIGHT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp ESC    &kp Q             &kp W         &kp E             &kp R               &kp T                &kp Y      &kp U      &kp I              &kp O           &kp P           &kp BSPC
+&kp TAB    &kp A             &kp S         &kp D             &kp F               &kp G                &kp H      &kp J      &kp K              &kp L           &kp SEMICOLON   &kp ENTER
+&kp LSHFT  &kp Z             &kp X         &kp C             &kp V               &kp B                &kp MINUS  &kp EQUAL  &kp N              &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp SLASH
+&mo 5      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LEFT_BRACKET  &lt 4 RIGHT_BRACKET  &kp SPACE  &kp SPACE  &kp RIGHT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
