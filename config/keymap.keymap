@@ -25,10 +25,10 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp Q             &kp W         &kp E             &kp R  &kp T  &kp Y        &kp U        &kp I              &kp O           &kp P           &kp BSPC
-&kp TAB    &kp A             &kp S         &kp D             &kp F  &kp G  &kp H        &kp J        &kp K              &kp L           &kp SEMICOLON   &kp ENTER
-&kp LSHFT  &kp Z             &kp X         &kp C             &kp V  &kp B  &lt 4 MINUS  &lt 2 EQUAL  &kp N              &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp SLASH
-&mo 5      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 2  &mo 0  &kp SPACE    &kp SPACE    &kp RIGHT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp ESC    &kp Q             &kp W         &kp E             &kp R  &kp T  &kp Y      &kp U      &kp I              &kp O           &kp P           &kp BSPC
+&kp TAB    &kp A             &kp S         &kp D             &kp F  &kp G  &kp H      &kp J      &kp K              &kp L           &kp SEMICOLON   &kp ENTER
+&kp LSHFT  &kp Z             &kp X         &kp C             &kp V  &kp B  &mo 4      &mo 2      &kp N              &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp SLASH
+&mo 5      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 2  &mo 5  &kp SPACE  &kp SPACE  &kp RIGHT_COMMAND  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -45,7 +45,7 @@
             bindings = <
 &kp GRAVE  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5     &kp N6     &kp N7         &kp N8     &kp N9                &kp N0                 &kp BACKSLASH
 &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT
-&trans     &trans    &trans  &trans    &trans      &trans     &trans     &trans         &kp MINUS  &kp EQUAL             &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT
+&trans     &trans    &trans  &trans    &trans      &trans     &trans     &trans         &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &trans  &kp RIGHT_SHIFT
 &trans     &trans    &trans  &trans    &trans      &trans     &trans     &trans         &trans     &trans                &trans                 &trans
             >;
         };
